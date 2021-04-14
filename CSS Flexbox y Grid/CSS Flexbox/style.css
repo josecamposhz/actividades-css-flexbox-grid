@@ -1,0 +1,77 @@
+html {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
+
+.card .card-header {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.9rem;
+}
+
+.card .card-body .card-body-img {
+  border: 5px solid #ffffff;
+  margin-top: -53px;
+  border-radius: 50%;
+}
+
+.card .card-body .card-body-title {
+  color: #2d3248;
+  font-size: 1rem;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.card .card-body .card-body-text {
+  color: #6a6f81;
+  font-size: 0.8rem;
+}
+
+.card .card-stats {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 0.1px solid #e8e8e8;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.card .card-stats .stat {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card .card-stats .stat .stat-value {
+  padding: 0.4rem;
+  font-weight: 700;
+}
+
+.card .card-stats .stat .stat-name {
+  font-size: 0.8rem;
+  color: #6a6f81;
+}
